@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.canvas {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'readex';
+    src: url('./ReadexPro-Medium.ttf') format('truetype');
+  }
+  
+  
+.info {
+    font-family: 'readex', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    background-color: #6FA6FA ;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+
+.info button{
+    border-radius: 40px;
+    font-size: 110%;
+}
+
+.cameraSelector{
+    width:100%;
+    font-size: 80%;
+}
+
+@media only screen and (max-device-width: 640px) {
+}
+
+@media only screen and (max-device-width: 768px) {
+    .info{
+        font-size: 120%;
+    }
+
+}
