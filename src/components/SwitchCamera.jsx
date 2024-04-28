@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import { Loading } from "./Loading";
 import { GithubLink } from "./GithubLink";
 
-type switchCameraProps = {
-  isModelLoaded: boolean,
-  setConstraints: Function,
-};
-
-const SwitchCamera = (props: switchCameraProps) => {
+const SwitchCamera = (props) => {
   const [devices, setDevices] = useState([]);
 
   const handleDevices = React.useCallback(
